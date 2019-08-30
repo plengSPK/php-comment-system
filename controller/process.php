@@ -8,7 +8,6 @@ function pre_r($data)
     echo "</pre>";
 }
 
-
 $Comment = new Comment();
 $comments = $Comment->fetch_all();
-pre_r($comments);
+//pre_r($comments);
